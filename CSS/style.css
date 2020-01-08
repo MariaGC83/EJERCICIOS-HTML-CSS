@@ -48,6 +48,7 @@ table {
   td, th {
     border: .5px solid black;
     padding: 0.5rem;
+    text-align: center;
   
   }
 
@@ -69,14 +70,14 @@ table {
     text-align: center;
   }
 
-  td.Tag1 {
+  .Tag1 {
     border: 1px solid rgba(180, 180, 180, .3);
     border-radius: 4px;
     padding: .25rem;
     background-color: #eee;
   }
 
-  td.rojo {
+  .Tag2 {
     border-color: rgba(255, 0, 0, 0.3);
     background-color: rgba(255, 0, 0, 0.15);
   }
