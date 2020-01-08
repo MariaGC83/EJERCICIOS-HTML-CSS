@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <title>Ejercicio 3.2 HTML</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    </head>
+    <body>
+    <h1>Sitio Web</h1>
+
+    <hr/>
+    <a href="index.html">Inicio</a> | <a href="Productos.html">Productos</a> | <a href="Contacto.html">Contacta con nosotros</a>
+
+    <hr/>
+
+    <h2>Contacta con nosotros</h2>
+
+        <p>Para cualquier tipo de pregunta; dudas, disponibilidad de actividades, fechas, precios...¡No dudes en contactar con nosotros!</p>
+
+        <p><strong><i>Sitio Web</i></strong><br>
+        <i>Calle Atocha 25</i><br>
+        <i>28012 Madrid</i><br>
+        <a href="mailto:account@domain.com">micuenta@dominio.com</a></i></p>
+
+        <br>Si lo prefieres, indícanos tus datos de contacto y nosotros te llamaremos</br>
+        <form action="#" method="POST" name="formDatosContacto">
+            <br><br><label class="datos" for="nombre">Nombre </label><input type="text" id="nombre">
+            <br><br><label class="datos" for="apellido">Apellido </label><input type="text" id="apellido">
+            <br><br><label class="datos" for="correo electrónico">Correo electrónico </label><input type="text" id="correo electrónico">
+            <br><br><label class="datos" for="teléfono">Teléfono </label><input type="text" id="teléfono">
+        
+            <p class="datos" >Deja tu comentario:<br>
+            
+            <textarea name="comentario" rows="10" cols="80"></textarea>
+            
+            </p>
+            
+            <input type="checkbox" name="acepto las condiciones de privacidad"> Acepto las condiciones de privacidad.<br><br>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        
+        </body>
+</html>
